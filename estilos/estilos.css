@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#cards{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1{
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgba(21, 108, 223, 0.836);
+    color: beige; 
+}
+
+.item2{
+    width: 40%;
+    height: 40%;
+}
+
+.item3{
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.item4, .item5{
+    margin: 0 0;
+}
+
+.item6{
+    width: 50%;
+    align-self: center;
+}
